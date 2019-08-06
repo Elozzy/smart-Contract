@@ -9,11 +9,11 @@ contract Hello {
         greeting = "hello";
     }
 
-    function getGreeting() public view return (string) {
+    function getGreeting() public view returns (string) {
         return greeting;
     }
 
-    function setGreeting(string _greetin) public { 
+    function setGreeting(string _greeting) public { 
         greeting = _greeting;
     }
 
